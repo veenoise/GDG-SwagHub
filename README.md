@@ -2,6 +2,12 @@
 
 This is a React project that uses Firebase Auth for backend authentication using signInWithEmailAndPassword, createUserWithEmailAndPassword, and signInWithPopup using GoogleAuthProvider.
 
+## Install Dependencies
+
+```bash
+npm install
+```
+
 ## Modify `/src/firebase/firebase.ts`
 
 Generate your own firebase project and paste the firebase configuration in that file.
