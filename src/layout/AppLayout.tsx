@@ -8,7 +8,7 @@ import { useNavigate } from "react-router"
 import { onAuthStateChanged } from "firebase/auth"
 import { auth } from "@/firebase/firebase"
 
-const AuthLayout = ({ children } : { children: ReactNode}) => {
+const AppLayout = ({ children } : { children: ReactNode}) => {
     const useAuthContext = useContext(AuthContext);
     const navigate = useNavigate();
 
@@ -50,4 +50,4 @@ const AuthLayout = ({ children } : { children: ReactNode}) => {
     )
 }
 
-export default AuthLayout
+export default AppLayout
